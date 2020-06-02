@@ -1,6 +1,4 @@
 import React from 'react';
-import {Card} from 'react-bootstrap';
-import ImageCarousel from './imageCarousel/imageCarousel';
 import './projectCard.css';
 
 const projectCard = (props) => {
@@ -8,16 +6,9 @@ const projectCard = (props) => {
     return(
          <div className="content">
              <div className="image">
-                {/* <ImageCarousel 
-                    images={props.images}
-                    width={props.width}
-                    height={props.height}
-                /> */}
                 <p className="title">{props.title}</p>
-                {/* {console.log(props.images)} */}
              </div>
              <div className="description">
-                 {/* <h5>{props.title}</h5> */}
                  <div className="details">
                     {props.description}
                  </div>

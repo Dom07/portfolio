@@ -7,20 +7,6 @@ import ProjectCard from '../../components/projectCard/projectCard';
 import { Container, CardDeck } from 'react-bootstrap';
 import "./Home.css";
 
-import yelpPlusImageOne from '../../images/yelpPlus/shippedImage.png';
-import yelpPlusImageTwo from '../../images/yelpPlus/shippedImage2.png';
-import yelpPlusImageThree from '../../images/yelpPlus/shippedImage3.png';
-
-import todoOne from '../../images/doItToday/shippedImageOne.png';
-import todoTwo from '../../images/doItToday/shippedImageTwo.png';
-import todoThree from '../../images/doItToday/shippedImageThree.png';
-import todoFour from '../../images/doItToday/shippedImageFour.png';
-
-import eshopOne from '../../images/eshop/ss1.jpg';
-import eshopTwo from '../../images/eshop/ss2.jpg';
-import eshopThree from '../../images/eshop/ss3.jpg';
-
-
 class Home extends Component {
     render() {
         const analytiqDetails = "Developed a reactive web application for an ERP system that would be used in the healthcare industry especially during the COVID-19 situation. It was a three tier application which was deployed on Microsoft Azure Services."
@@ -69,7 +55,6 @@ class Home extends Component {
                         title="E-shop"
                         techs={["ReactJS", "HTML5", "CSS", "NodeJS", "ExpressJS", "MongoDB"]}
                         description={eShopDetails}
-                        images={[eshopOne, eshopTwo, eshopThree]}
                         width="500px"
                         height="300px"
                     />
@@ -77,7 +62,6 @@ class Home extends Component {
                         title="Yelp Plus"
                         techs={["Android SDK", "Java", "NodeJS", "ExpressJS", "RestFul API", "MongoDB", "Heroku", "Mocha", "Chai"]}
                         description={yelpDetails}
-                        images={[yelpPlusImageOne, yelpPlusImageTwo, yelpPlusImageThree]}
                         width="300px"
                         height="500px"
                     />
@@ -85,7 +69,6 @@ class Home extends Component {
                         title="Do It Today"
                         techs={["Android SDK", "Java", "SQLlite"]}
                         description={doItTodayDetails}
-                        images={[todoOne, todoThree, todoFour]}
                         width="300px"
                         height="500px"
                     />
