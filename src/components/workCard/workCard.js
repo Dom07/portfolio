@@ -13,13 +13,7 @@ const workCard = (props) => {
                      {props.jobTitle}
                  </Card.Subtitle>
                  <Card.Text>
-                     List of things you did at work
-                     List of things you did at work
-                     List of things you did at work
-                     List of things you did at work
-                     List of things you did at work
-                     List of things you did at work
-                     List of things you did at work
+                     {props.details}
                  </Card.Text>
              </Card.Body>
          </Card>

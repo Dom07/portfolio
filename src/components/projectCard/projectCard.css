@@ -3,17 +3,28 @@
     display: flex;
     padding: 20px;
     width: 100%;
-    /* height: 300px; */
-    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid grey;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .image{
+    justify-content: center;
+    align-items: center;
     height: 100%;
-    width: 50%;
+    width: 40%;
+    margin-left: 5%;
+    /* padding: 50px; */
 }
 
 .description{
-    width: 50%;
+    width: 70%;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 300;
 }
 
 .tech{

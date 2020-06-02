@@ -4,7 +4,22 @@
 }
 
 .contact-me{
+    text-align: center;
     background-color: grey;
     color: white;
     padding: 50px;
+}
+
+.contact-section{
+    margin-top:20px
+}
+
+.contact-item{
+    margin-left: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.contact-item:hover{
+    color: aqua;
 }

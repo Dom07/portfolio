@@ -1,16 +1,23 @@
 import React from 'react';
-import './projectCard.css';
+import {Card} from 'react-bootstrap';
 import ImageCarousel from './imageCarousel/imageCarousel';
+import './projectCard.css';
 
 const projectCard = (props) => {
     const techSkills = props.techs.map(item => <li>{item}</li>)
     return(
          <div className="content">
              <div className="image">
-                 <ImageCarousel/>
+                {/* <ImageCarousel 
+                    images={props.images}
+                    width={props.width}
+                    height={props.height}
+                /> */}
+                <p className="title">{props.title}</p>
+                {/* {console.log(props.images)} */}
              </div>
              <div className="description">
-                 <h5>{props.title}</h5>
+                 {/* <h5>{props.title}</h5> */}
                  <div className="details">
                     {props.description}
                  </div>

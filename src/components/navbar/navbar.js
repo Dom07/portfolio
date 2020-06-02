@@ -12,9 +12,9 @@ const navbar = (props) => {
                             {/* fix this */}
                         </Nav>
                         <Nav>
-                            <Nav.Link href="#aboutMe">About Me</Nav.Link>
-                            <Nav.Link href="#projects">Projects</Nav.Link>
-                            <Nav.Link href="#workExp">Work Experience</Nav.Link>
+                            <Nav.Link href="#skills" active={false}>Skills</Nav.Link>
+                            <Nav.Link href="#workExp" active={false}>Work Experience</Nav.Link>
+                            <Nav.Link href="#projects" active={false}>Projects</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
